@@ -1,0 +1,31 @@
+button{
+	height:20px;
+	width:150px;
+
+	cursor:pointer;
+}
+table,th,td{
+	
+	border:1px solid black;
+	border-collapse:collapse;
+	padding:5px;
+}
+h1{font size:15px;
+}
+.pop{
+	height:250px;
+	width:400px;
+	border:1px solid black;
+	padding:50px;
+ z-index: 1;
+position:fixed;
+display:none;
+margin:0px 350px;
+background-color:lightgreen;
+
+}
+.close{
+	height:20px;
+	width:20px;
+	float:right;
+}
